@@ -12,6 +12,8 @@ const VORACIOUS_FIELD_NAMES = new Map([
   ['audio', 'Audio'],
   ['image', 'Image'],
   ['selected_text', 'Selected Text'],
+  ['secondary_text', 'Secondary Subtitles'],
+
 ]);
 
 const FIELD_DEFAULTS = new Map([
@@ -20,6 +22,8 @@ const FIELD_DEFAULTS = new Map([
   ['Audio', 'audio'],
   ['Image', 'image'],
   ['Word', 'selected_text'],
+  ['Meaning', 'secondary_text'],
+
 ]);
 
 export default class SettingsAnki extends Component {
